@@ -11,8 +11,8 @@ function HeaderLink({ to, children }: HeaderLinkProps) {
       to={to}
       className={({ isActive }) =>
         isActive
-          ? 'flex flex-row items-center justify-center gap-1 p-2 rounded-md bg-slate-900 text-white'
-          : 'flex flex-row items-center justify-center gap-1 p-2 rounded-md hover:bg-slate-900 hover:text-white'
+          ? 'flex flex-row items-center justify-center gap-1 p-2 pr-3 rounded-md bg-slate-900 text-white'
+          : 'flex flex-row items-center justify-center gap-1 p-2 pr-3 rounded-md hover:bg-slate-900 hover:text-white'
       }
     >
       {children}
